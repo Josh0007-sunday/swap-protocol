@@ -1,0 +1,17 @@
+[package]
+name = "swap-protocol"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Swap = "0x94c76ba68655ce5dfaa38f5e6951aca90a79a8e9df0622a06a9eb563f2bbd65b"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
